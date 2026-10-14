@@ -1,0 +1,6 @@
+{
+  "name": "GET FIT FITNESS & GYM",
+  "description": "Top-rated fitness center in Tiruchirappalli, Tamil Nadu. Modern equipment, certified trainers, personalized workout programs, and supportive community.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+/* Local Freshman font for hero headline */
+@font-face {
+  font-family: 'Freshman';
+  src: url('/fonts/Freshman-POdx.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  :root {
+    --font-freshman: 'Freshman', sans-serif;
+    --font-heading: 'Gloock', serif;
+    --font-sub: 'Aldrich', sans-serif;
+    --font-body: 'Aldrich', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: #0b0f15;
+    color: #f1f5f9;
+    overflow-x: hidden;
+  }
+
+  /* Light mode override if toggled */
+  html.light body {
+    background-color: #f8fafc;
+    color: #0f172a;
+  }
+}
+
+/* Freshman — hero headline only */
+.font-freshman {
+  font-family: 'Freshman', sans-serif;
+}
+
+/* Gloock — bold display text */
+.font-heading {
+  font-family: 'Gloock', serif;
+}
+
+.font-anton {
+  font-family: 'Gloock', serif;
+}
+
+.font-bebas {
+  font-family: 'Gloock', serif;
+}
+
+/* Gloock — sub texts, eyebrows, labels */
+.font-sub {
+  font-family: 'Aldrich', sans-serif;
+  letter-spacing: 0.04em;
+}
+
+/* Gloock — body, nav, buttons */
+.font-body {
+  font-family: 'Aldrich', sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b0f15;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a3447;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f59e0b;
+}
